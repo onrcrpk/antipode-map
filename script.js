@@ -1,5 +1,5 @@
 const API_KEY = "590413f4a652f2004b01cdfb16051ff8";
-const GEOCODE_KEY = "870f1bf84e1b46e3ae40d693407a8ec6";
+const GEOCODE_KEY = "5567ef8983834c77ac00af94334f316e";
 let currentSelectionId1 = 0; // sol kutu için
 let currentSelectionId2 = 0; // sağ kutu için
 
@@ -339,5 +339,6 @@ async function fetchLocationName(lat, lon) {
     return null;
   }
 }
+
 
 
